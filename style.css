@@ -1,0 +1,24 @@
+:root {
+  --bgBlue: #141536;
+  --lightBlue: #5C5FF5;
+  --blue: #4547B5;
+  --darkBlue: #2D2E75;
+}
+
+body {
+  background-color: var(--bgBlue);
+  font-family: "Comfortaa";
+  color: #FFFFFF;
+}
+
+p {
+  color: #FF4500;
+}
+
+.Header {
+  color: #FFFFFF;
+
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
