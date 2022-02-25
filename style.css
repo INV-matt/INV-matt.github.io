@@ -6,21 +6,32 @@
 }
 
 body {
-  background-color: var(--bgBlue);
+  background-image: url("images/background.png");
   font-family: "Comfortaa";
   color: #FFFFFF;
 }
 
-.Everything{
-  background-color: var(--bgBlue);
+.All{
+  background-color: #FFFFFF;
   width: 720px;
   margin:0 auto;
+}
+
+.HeaderDiv {
+  background-color: var(--bgBlue);
+  box-shadow: 2px 2px 2px 2px #000000;
+  padding: 30px 30px;
+  text-align: right;
 }
 
 .Header {
   color: #FFFFFF;
 
-  font-size: 36px;
+  font-size: 56px;
   font-weight: bolder;
   text-align: center;
+}
+.Description {
+  color: #FFFFFF;
+  font-size: 24px
 }
