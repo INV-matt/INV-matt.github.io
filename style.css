@@ -6,14 +6,17 @@
 }
 
 body {
-  background-image: url("images/background.png");
   font-family: "Comfortaa";
-  color: #FFFFFF;
+  color: #000000;
+}
+
+.MainIndex {
+  background-image: url("images/background.png");
 }
 
 .All{
   background-color: #FFFFFF;
-  width: 720px;
+  width: 1280px;
   margin:0 auto;
 }
 
@@ -34,4 +37,27 @@ body {
 .Description {
   color: #FFFFFF;
   font-size: 24px
+}
+
+.Nav {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  gap: 60px;
+  list-style-type: none;
+}
+
+
+.MainAbout {
+  background-color: var(--bgBlue);
+}
+
+.Space64px {
+  height: 128px;
+}
+
+.HeaderDiv2 {
+  background-color: var(--bgBlue);
+  padding: 30px 30px;
+  text-align: right;
 }
