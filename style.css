@@ -11,18 +11,16 @@ body {
   color: #FFFFFF;
 }
 
-p {
-  color: #FF4500;
-}
-
-a {
-  color: #FFFFFF;
+.Everything{
+  background-color: var(--bgBlue);
+  width: 720px;
+  margin:0 auto;
 }
 
 .Header {
   color: #FFFFFF;
 
   font-size: 36px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
