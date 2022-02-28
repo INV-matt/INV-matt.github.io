@@ -7,33 +7,31 @@
 
 body {
   font-family: "Comfortaa";
-  color: #000000;
+  color: var(--bgBlue);
 }
 
 .MainIndex {
   background-image: url("images/background.png");
 }
 
-.All{
+.FullText{
   background-color: #FFFFFF;
   width: 1280px;
   margin:0 auto;
 }
 
-.HeaderDiv {
+.Header {
   background-color: var(--bgBlue);
   box-shadow: 2px 2px 2px 2px #000000;
   padding: 30px 30px;
   text-align: right;
-}
 
-.Header {
   color: #FFFFFF;
-
   font-size: 56px;
   font-weight: bolder;
   text-align: center;
 }
+
 .Description {
   color: #FFFFFF;
   font-size: 24px
@@ -56,8 +54,13 @@ body {
   height: 128px;
 }
 
-.HeaderDiv2 {
+.Header2 {
   background-color: var(--bgBlue);
   padding: 30px 30px;
   text-align: right;
+
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: bolder;
+  text-align: center;
 }
