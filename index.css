@@ -1,0 +1,75 @@
+:root {
+  --bgBlue: #141536;
+  --lightBlue: #5C5FF5;
+  --blue: #4547B5;
+  --darkBlue: #2D2E75;
+}
+
+body {
+  font-family: "Comfortaa";
+  color: var(--bgBlue);
+}
+
+.MainIndex {
+  /*background-image: url("images/background.png");*/
+}
+
+.Page {
+  align-content: center;
+  display: flex;
+}
+
+.FullPost{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1280px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+
+.Header {
+  background-color: var(--bgBlue);
+  padding: 30px 30px;
+  text-align: right;
+
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Description {
+  color: #FFFFFF;
+  font-size: 24px
+}
+
+.Nav {
+  display: flex;
+  align-content: center;
+  justify-content: right;
+  padding: 20px 0;
+  padding-right: 60px;
+  gap: 60px;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.aNav:visited, .aNav:link  {
+  color: white;
+  font-size: 20px;
+}
+
+.Post {
+  display: block;
+  justify-content: left;
+  background-color: #eee;
+  margin-top: 50px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 10px 0px #000  ;
+}
+
+.PostList {
+  color: black;
+}
