@@ -73,3 +73,7 @@ body {
 .PostList {
   color: black;
 }
+ #line1 {
+   height: auto;
+   width: 10px;
+ }
