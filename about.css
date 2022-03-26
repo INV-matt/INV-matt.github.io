@@ -1,3 +1,10 @@
+:root {
+  --bgBlue: #141536;
+  --lightBlue: #5C5FF5;
+  --blue: #4547B5;
+  --darkBlue: #2D2E75;
+}
+
 .MainAbout {
   background-color: var(--bgBlue);
 }
@@ -12,7 +19,7 @@
   background-color: var(--bgBlue);
   padding: 30px 30px;
 
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 56px;
   font-weight: bolder;
   text-align: center;
