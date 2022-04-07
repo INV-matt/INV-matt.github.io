@@ -1,0 +1,47 @@
+:root {
+  --l_yellow: #f6e58d;
+  --yellow: #f9ca24;
+  --l_orange: #ffbe76;
+  --orange: #f0932b;
+  --red: #eb4d4b;
+  --l_ice: #dff9fb;
+  --ice: #c7ecee;
+  --ll_blue: #7ed6df;
+  --l_blue: #22a6b3;
+  --purple: #be2edd;
+  --m_blue: #686de0;
+  --blue: #4834d4;
+  --d_blue: #30336b;
+  --deep_blue: #130f40;
+  --blue_gray: #95afc0;
+  --gray: #535c68;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  font-family: "Comfortaa";
+  background-color: var(--d_blue);
+}
+
+.FullText{
+  margin:0 auto;
+}
+
+.Header {
+  background-color: var(--deep_blue);
+  padding: 30px 30px;
+
+  color: var(--l_ice);
+  font-size: 56px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+p {
+  color: var(--l_ice);
+  width: 1280px;
+  padding: 100px;
+  margin: 0 auto;
+  
+}

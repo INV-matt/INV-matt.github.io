@@ -1,0 +1,95 @@
+:root {
+  --l_yellow: #f6e58d;
+  --yellow: #f9ca24;
+  --l_orange: #ffbe76;
+  --orange: #f0932b;
+  --red: #eb4d4b;
+  --l_ice: #dff9fb;
+  --ice: #c7ecee;
+  --ll_blue: #7ed6df;
+  --l_blue: #22a6b3;
+  --purple: #be2edd;
+  --m_blue: #686de0;
+  --blue: #4834d4;
+  --d_blue: #30336b;
+  --deep_blue: #130f40;
+  --blue_gray: #95afc0;
+  --gray: #535c68;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  font-family: "Comfortaa";
+  color: var(--deep_blue);
+  background-image: url("images/background.png");
+}
+
+.Page {
+  align-content: center;
+  display: flex;
+}
+
+.FullPost{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1280px;
+  margin-right: 25px;
+  padding-bottom: 20px;
+}
+
+.Header {
+  background-color: var(--deep_blue);
+  padding: 30px 30px;
+  text-align: right;
+
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Description {
+  color: #FFFFFF;
+  font-size: 24px
+}
+
+.Nav {
+  display: flex;
+  align-content: center;
+  justify-content: right;
+  padding: 20px 0;
+  padding-right: 60px;
+  gap: 60px;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.aNav:visited, .aNav:link  {
+  color: white;
+  font-size: 20px;
+}
+
+.Post {
+  display: block;
+  justify-content: left;
+  background-color: #eee;
+  margin-top: 50px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 10px 0px #000  ;
+}
+
+.SideMenu {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 25px;
+}
+
+.PostList {
+  color: black;
+}
+ #line1 {
+   height: auto;
+   width: 10px;
+ }

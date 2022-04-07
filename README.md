@@ -1,3 +1,2 @@
-# My Site
-POG POG POG POG POG POG POG POG POG POG POG POG POG 
-POG
+# My_Blog
+This is my blog, fully written in html and css. 
