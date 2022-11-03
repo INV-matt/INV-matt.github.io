@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'glasses',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/unixporn',
+					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/mathmemes',
+					link: 'https://www.reddit.com/r/mathmemes/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/reactjs',
+					link: 'https://www.reddit.com/r/reactjs/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/androidthemes',
+					link: 'https://www.reddit.com/r/androidthemes/',
 				},
 			],
 		},
@@ -161,8 +161,8 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Figma',
+					link: 'https://www.figma.com',
 				},
 				{
 					name: 'Dribbble',
@@ -173,8 +173,8 @@ const CONFIG = {
 					link: 'https://www.todoist.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Instagram',
+					link: 'https://www.instagram.com',
 				},
 			],
 		},
