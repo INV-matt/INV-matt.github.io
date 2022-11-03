@@ -10,7 +10,20 @@
 //  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘ 
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');*/ /* Font Import */
+
+@font-face {
+  font-family: "FiraCodeNF";
+  src: url(".assets/fonts/FC-Reg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeNF";
+  src: url(".assets/fonts/FC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   /* Font Size */
@@ -30,7 +43,7 @@
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
-  --imgbg: url(assets/background.jpg); /* Image URL */
+  --imgbg: url("./assets/night_streetlap.png"); /* Image URL */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
@@ -39,18 +52,19 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #31748f; /* Hover color */
+  --background: #191724; /* Background color */
+  --cards: #1f1d2e; /* Cards color */
+ /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #e0def4; /* Foreground color */
+  --sfg: #ebbcba; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
+    #191724d9,
+    #26233ad9
   ); /* Filter color */
 }
 
@@ -64,7 +78,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'FC-Reg';
   transition: 0.2s ease-in-out;
 }
 
@@ -118,12 +132,12 @@ body {
 .card {
   background-color: var(--cards);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-  border-radius: 5px;
+  border-radius: 16px;
 }
 
 .card:hover {
   transform: translateY(-0.2rem);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 10px 10px /*rgba(0, 0, 0, 0.35)*/ #31748f59;
 }
 
 .timeBlock {
