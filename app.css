@@ -63,8 +63,8 @@
 
   /* Image background  */
   --imgcol: linear-gradient(
-    #191724d9,
-    #26233ad9
+    rgba(25, 23, 36, 0),
+    rgba(38, 35, 58, 0)
   ); /* Filter color */
 }
 
