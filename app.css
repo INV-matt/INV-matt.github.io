@@ -24,6 +24,18 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "TerminessNF";
+  src: url(".assets/fonts/Terminess-Reg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TerminessNF";
+  src: url(".assets/fonts/Terminess-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   /* Font Size */
@@ -43,7 +55,7 @@
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
-  --imgbg: url("./assets/leaves.png"); /* Image URL */
+  --imgbg: url("./assets/img/leaves.jpg"); /* Image URL */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
@@ -63,8 +75,8 @@
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(25, 23, 36, 0),
-    rgba(38, 35, 58, 0)
+    #28282880,
+    #50494580
   ); /* Filter color */
 }
 
@@ -78,7 +90,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'FC-Reg';
+  font-family: 'Terminess-Reg';
   transition: 0.2s ease-in-out;
 }
 
