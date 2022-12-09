@@ -43,7 +43,7 @@
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
-  --imgbg: url("./assets/night_streetlap.png"); /* Image URL */
+  --imgbg: url("./assets/leaves.png"); /* Image URL */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
@@ -52,14 +52,14 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #31748f; /* Hover color */
-  --background: #191724; /* Background color */
-  --cards: #1f1d2e; /* Cards color */
+  --accent: #458588; /* Hover color */
+  --background: #282828; /* Background color */
+  --cards: #504945; /* Cards color */
  /* Cards color */
 
   /* Fonts Color */
-  --fg: #e0def4; /* Foreground color */
-  --sfg: #ebbcba; /* Secondary Foreground color */
+  --fg: #fbf1c7; /* Foreground color */
+  --sfg: #d5c4a1; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
