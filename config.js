@@ -147,8 +147,8 @@ const CONFIG = {
 					link: 'https://www.reddit.com/r/mathmemes/',
 				},
 				{
-					name: 'r/reactjs',
-					link: 'https://www.reddit.com/r/reactjs/',
+					name: 'r/BancaDelMeme',
+					link: 'https://www.reddit.com/r/BancaDelMeme/',
 				},
 				{
 					name: 'r/androidthemes',
