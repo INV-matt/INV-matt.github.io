@@ -10,7 +10,22 @@
 //  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘ 
  */
 
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');*/ /* Font Import */
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');*/
+/* Font Import */
+
+@font-face {
+  font-family: "FantasqueNF";
+  src: url("./assets/fonts/Fantasque-Reg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FantasqueNF";
+  src: url("./assets/fonts/Fantasque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "FiraCodeNF";
@@ -18,18 +33,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "FiraCodeNF";
   src: url(".assets/fonts/FC-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TerminessNF";
   src: url(".assets/fonts/Terminess-Reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TerminessNF";
   src: url(".assets/fonts/Terminess-Bold.ttf") format("truetype");
@@ -39,45 +57,59 @@
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
-  --fg-list: 2vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --fg-primary: 12vh;
+  /* Time and Greetings */
+  --fg-secondary: 3vh;
+  /* Greetings and Weather widger */
+  --fg-date: 8vh;
+  /* Date */
+  --fg-list: 2vh;
+  /* Links List */
+  --icon: 3vh;
+  /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --fg: #3a3a3a;
+  /* Foreground color */
+  --sfg: #494949;
+  /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  --accent: #57a0d9;
+  /* Hover color */
+  --background: #f5f5f5;
+  /* Background color */
+  --cards: #e4e6e6;
+  /* Cards color */
 
   /* Image background  */
-  --imgbg: url("./assets/img/leaves.jpg"); /* Image URL */
-  --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ); /* Filter color */
+  --imgbg: url("./assets/img/night_streetlap.png");
+  /* Image URL */
+  --imgcol: linear-gradient(rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7));
+  /* Filter color */
 }
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #458588; /* Hover color */
-  --background: #282828; /* Background color */
-  --cards: #504945; /* Cards color */
- /* Cards color */
+  --accent: #7aa2f7;
+  /* Hover color */
+  --background: #1a1b26;
+  /* Background color */
+  --cards: #414868;
+  /* Cards color */
+  /* Cards color */
 
   /* Fonts Color */
-  --fg: #fbf1c7; /* Foreground color */
-  --sfg: #d5c4a1; /* Secondary Foreground color */
+  --fg: #a9b1d6;
+  /* Foreground color */
+  --sfg: #c0caf5;
+  /* Secondary Foreground color */
 
   /* Image background  */
-  --imgcol: linear-gradient(
-    #28282880,
-    #50494580
-  ); /* Filter color */
+  --imgcol: linear-gradient(#1a1b2680,
+      #24283b80);
+  /* Filter color */
 }
 
 /* 
@@ -90,7 +122,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Terminess-Reg';
+  font-family: 'Fantasque-Reg';
   transition: 0.2s ease-in-out;
 }
 
@@ -149,7 +181,9 @@ body {
 
 .card:hover {
   transform: translateY(-0.2rem);
-  box-shadow: 0 10px 10px /*rgba(0, 0, 0, 0.35)*/ #31748f59;
+  box-shadow: 0 10px 10px
+    /*rgba(0, 0, 0, 0.35)*/
+    #31748f59;
 }
 
 .timeBlock {
@@ -285,29 +319,36 @@ body {
   grid-row: 1;
   grid-column: 1;
 }
+
 .button__2 {
   grid-row: 1;
   grid-column: 2;
 }
+
 .button__3 {
   grid-row: 2;
   grid-column: 1;
 }
+
 .button__4 {
   grid-row: 2;
   grid-column: 2;
 }
+
 .button__5 {
   grid-row: 1;
   grid-column: 3;
 }
+
 .button__6 {
   grid-row: 2;
   grid-column: 3;
 }
+
 .button:hover {
   background-color: var(--accent);
 }
+
 .button:hover svg {
   stroke: var(--sfg);
 }
@@ -333,10 +374,12 @@ body {
   grid-column: 1;
   grid-row: 1 / span 2;
 }
+
 .list__2 {
   grid-column: 2;
   grid-row: 1 / span 2;
 }
+
 .listIcon {
   /* margin-top: 3vh; */
   margin-bottom: 2vh;
@@ -344,6 +387,7 @@ body {
   width: var(--icon);
   height: var(--icon);
 }
+
 .listItem {
   text-decoration: none;
   font-size: var(--fg-list);
@@ -355,6 +399,7 @@ body {
   text-align: center;
   width: 80%;
 }
+
 .listItem:hover {
   background-color: var(--accent);
   color: var(--sfg);
