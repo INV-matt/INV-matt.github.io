@@ -85,8 +85,7 @@
   /* Image background  */
   --imgbg: url("./assets/img/night_streetlap.png");
   /* Image URL */
-  --imgcol: linear-gradient(rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7));
+  --imgcol: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
   /* Filter color */
 }
 
@@ -94,9 +93,9 @@
   /* Dark Colors  */
   --accent: #7aa2f7;
   /* Hover color */
-  --background: #1a1b26;
+  --background: #11121d;
   /* Background color */
-  --cards: #414868;
+  --cards: #25252e;
   /* Cards color */
   /* Cards color */
 
@@ -107,8 +106,7 @@
   /* Secondary Foreground color */
 
   /* Image background  */
-  --imgcol: linear-gradient(#1a1b2680,
-      #24283b80);
+  --imgcol: linear-gradient(#1a1b2680, #24283b80);
   /* Filter color */
 }
 
@@ -122,7 +120,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fantasque-Reg';
+  font-family: "Fantasque-Reg";
   transition: 0.2s ease-in-out;
 }
 
@@ -181,9 +179,7 @@ body {
 
 .card:hover {
   transform: translateY(-0.2rem);
-  box-shadow: 0 10px 10px
-    /*rgba(0, 0, 0, 0.35)*/
-    #31748f59;
+  box-shadow: 0 10px 10px /*rgba(0, 0, 0, 0.35)*/ #31748f59;
 }
 
 .timeBlock {
@@ -440,3 +436,4 @@ body {
     padding-right: 100px;
   }
 }
+
