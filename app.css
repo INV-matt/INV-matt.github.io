@@ -93,20 +93,21 @@
   /* Dark Colors  */
   --accent: #7aa2f7;
   /* Hover color */
-  --background: #11121d;
+  --background: #141415;
   /* Background color */
   --cards: #25252e;
   /* Cards color */
   /* Cards color */
 
   /* Fonts Color */
-  --fg: #a9b1d6;
+  --fg: #cfdce6;
   /* Foreground color */
-  --sfg: #c0caf5;
+  --sfg: #c0c0ca;
   /* Secondary Foreground color */
 
+  --imgbg: url("./assets/img/StarMan.png");
   /* Image background  */
-  --imgcol: linear-gradient(#1a1b2680, #24283b80);
+  --imgcol: linear-gradient(#0e0e0f80, #1c1c1e80);
   /* Filter color */
 }
 
